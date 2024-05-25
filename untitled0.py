@@ -13,45 +13,45 @@ Muallif: Anvar Narzullaev
 
 Web sahifa: https://python.sariq.dev
 """
-#O'zingizga ma'lum davlatlarning ro'yxatini tuzing va ro'yxatni konsolga chiqaring
+O'zingizga ma'lum davlatlarning ro'yxatini tuzing va ro'yxatni konsolga chiqaring
 davlatlar = ["O'zbekiston","Qozog'iston", "Rossiya", "Malayziya", "Singapur", "AQSh"]
 print(davlatlar)
 
-#Ro'yxatning uzunligini konsolga chiqaring
+Ro'yxatning uzunligini konsolga chiqaring
 print(len(davlatlar))
 
-#sorted() funktsiyasi yordamida ro'yxatni tartiblangan holda konsolga chiqaring
+sorted() funktsiyasi yordamida ro'yxatni tartiblangan holda konsolga chiqaring
 print(sorted(davlatlar))
 
-#sorted() yordamida ro'yxatni teskari tartibda konsolga chiqaring
+sorted() yordamida ro'yxatni teskari tartibda konsolga chiqaring
 print(sorted(davlatlar, reverse=True))
 
-#Asl ro'yxatni qaytadan konsolga chiqaring
+Asl ro'yxatni qaytadan konsolga chiqaring
 print(davlatlar)
 
-#reverse() metodi yordamida ro'yxatni ortidan boshlab chiqaring
+reverse() metodi yordamida ro'yxatni ortidan boshlab chiqaring
 davlatlar.reverse()
 print(davlatlar)
 
-#sort() metodi yordamida ro'yxatni avval alifbo bo'yicha, keyin esa alifboga teskari tartibda konsolga chiqaring.
+sort() metodi yordamida ro'yxatni avval alifbo bo'yicha, keyin esa alifboga teskari tartibda konsolga chiqaring.
 davlatlar.sort()
 print(davlatlar)
 davlatlar.sort(reverse=True)
 print(davlatlar)
 
-#120 dan 1200 gacha bo'lgan juft sonlar ro'yxatini tuzing
+120 dan 1200 gacha bo'lgan juft sonlar ro'yxatini tuzing
 sonlar = list(range(120,1200,2))
 
-#Ro'yxatdagi sonlar yig'indisini hisoblang va konsolga chiqaring
+Ro'yxatdagi sonlar yig'indisini hisoblang va konsolga chiqaring
 print(sum(sonlar))
 
-#Ro'yxatdagi eng katta va eng kichik son o'rtasidagi ayirmani hisoblang va konsolga chiqaring
+Ro'yxatdagi eng katta va eng kichik son o'rtasidagi ayirmani hisoblang va konsolga chiqaring
 print(max(sonlar)-min(sonlar))
 
-#Ro'yxatdagi elementlar sonini hisoblang
+Ro'yxatdagi elementlar sonini hisoblang
 print(len(sonlar))
 
-#Ro'yxatning boshidan, o'rtasidan va oxiridan 20 ta qiymatni konsolga chiqaring
+Ro'yxatning boshidan, o'rtasidan va oxiridan 20 ta qiymatni konsolga chiqaring
 print(sonlar[:20])
 print(sonlar[-20:])
 print(sonlar[530:550])
